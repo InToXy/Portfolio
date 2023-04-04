@@ -108,13 +108,19 @@
 		
         /* Typed.js */
 		
-        $(window).load(function(){
-        $(".typing").typed({
-            strings: ["Chez Orange.", "Technicien Entreprise."],    /* You can change the home section typing text from
-	                                                                                            here and do not use "&" use "and" */
-            typeSpeed: 50
+        $(document).ready(function() {
+            function type() {
+              $(".typing").typed({
+                strings: ["Chez Orange.", "Technicien Entreprise."],
+                typeSpeed: 100,
+                loop: true,
+                cursorChar: ""
+              });
+            }
+          
+            type();
           });
-         });
+          
         
 		 
         /* Parallax Background */
