@@ -1488,6 +1488,19 @@ input::-moz-focus-inner {
   line-height: 1.333;
 }
 
+.display-2 {
+  font-size: 3.5rem;
+  line-height: 1.333;
+  color: white;
+}
+
+.display-3 {
+  font-size: 2.8rem;
+  line-height: 1.333;
+  color: black;
+}
+
+
 .section-intro {
   position: relative;
   margin-bottom: 12rem;
