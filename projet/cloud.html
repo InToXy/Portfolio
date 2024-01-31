@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Découverte du Pentesting</title>
+    <title>Réseau Informatique Cloud</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -59,11 +59,11 @@
                 <ul class="header-nav">
                     <li><a class="smoothscroll" href="#about" title="About">Explications</a></li>
                     <li><a class="smoothscroll" href="#services" title="Services">Mise en Place</a></li>
-                    <li><a class="smoothscroll" href="#res" title="Works">Résultat</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Works">Résultat</a></li>
                 </ul>
             </nav> <!-- end header-nav-wrap -->
 
-            <a href="/assets/img/CV_claire_Matheo_Pinget_2022.pdf" download="/assets/img/CV_claire_Matheo_Pinget_2022.pdf" class="btn btn--stroke btn--small">Download CV</a>
+            <a href="/assets/img/CV_Matheo_Pinget_2024.pdf" download="/assets/img/CV_Matheo_Pinget_2024.pdf" class="btn btn--stroke btn--small">Download CV</a>
 
         </div> <!-- end header-content -->
 
@@ -74,19 +74,16 @@
 
     <!-- hero
     ================================================== -->
-    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="\assets\img\webbg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="\assets\img\pexels-pixabay-355465.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="row hero-content">
 
             <div class="column large-full">
 
                 <h1>
-                Projet<br>
-                Découverte<br>
-                du <br>
-                Pentesting.
+                    Construire un <br> réseau informatique <br> pour <br> une petite structure
                 </h1>
-                <p style="color: white;">SAE qui a fait suite à deux TPs d'introduction au Pentesting. Cette SAE comprenait plusieurs séances en autonomie où j'ai dû répondre à des questions difficiles en utilisant les outils et les machines virtuelles appropriés. J'ai également dû effectuer des recherches pour trouver les réponses. Bien que cela ait été un défi, j'ai beaucoup appris sur les techniques de Pentesting et sur la manière d'utiliser les outils pour découvrir les vulnérabilités de sécurité dans un système.</p>
+                <p style="color: white;">J'ai eu l'opportunité de construire un réseau informatique à l'aide d'OpenStack pour une petite structure. Le projet impliquait la mise en place de serveurs virtuels et la configuration d'un réseau privé pour gérer le trafic de données. J'ai également dû mettre en place des politiques de gestion des adresses IP et configurer les routages de réseau pour garantir la bonne communication entre les différentes machines. Bien que cela ait été un projet complexe, j'ai appris beaucoup sur la mise en place et la gestion de réseaux informatiques à l'aide d'OpenStack, ainsi que sur les meilleures pratiques pour garantir le bon fonctionnement du réseau.</p>
 
 
             </div> 
@@ -115,29 +112,25 @@
 
                     <div class="section-intro" data-num="01" data-aos="fade-up">
                         <h3 class="subhead">Explications</h3>
-                        <h2 class="display-3">Cette SAE fait suite aux 2 TPs d'introduction au Pentesting et comprend plusieurs séances en autonomie où j'ai dû répondre à des questions difficiles et utiliser les outils et les machines virtuelles adéquats, ainsi que faire des recherches pour trouver les réponses.</h2>
+                        <h1 class="display-1">Construction d'un réseau informatique avec OpenStack pour une petite structure</h1>
                     </div>
 
                     <div class="profile-pic" data-aos="fade-up">
-                        <img src="/assets/img/Cybersecurity-Background.png">
+                        <img src="/assets/img/291553.png">
                     </div>
 
-                    <h3 data-aos="fade-up">Precisions sur la SAE: </h3>
+                    <h3 data-aos="fade-up">Precisions sur la projet: </h3>
 
                     <p data-aos="fade-up">
                     <ul>
-                        <li>Quizz de 237 questions avec un taux de validation à 100%</li>
-                        <li>Utilisation des outils à disposition dans Kali Linux</li>
-                        <li>Les machines virtuelles utilisées:</li>
+                        <li>Utilisation de OpenStack</li>
+                        <li>Creation d'un réseau constitué de:</li>
                         <ul>
-                            <li>Windows 10</li>
-                            <li>Windows 2016 server</li>
-                            <li>Linux CentOS 8</li>
-                            <li>Linux Kali</li>
+                            <li>2x Linux CentOS 8 <strong>serveurs</strong><br></li>
+                            <li>2x Windows 10 <strong>clients</strong>.</li>
                         </ul>
-                            
                     </ul>
-                    
+                    <img src="/assets/img/openstack.png">
                     </p>
 
                 </div>
@@ -158,14 +151,15 @@
 
             <div class="column large-6 s-services__leftcol">
                 <div class="section-intro" data-num="02" data-aos="fade-up">
-                    <h3 class="subhead">Mise en place</h3>
-                    <h1 class="display-2">
-                    Voici la plateforme à mettre en place avant de commencer la SAE pour bien effectuer nos tests.
+                    <h3 class="subhead">Mise en Place </h3>
+
+                    <h1 class="display-1">
+                    Voici le schema réseau à mettre en place.
                     </h1>
                 </div>
 
-                <a href="/assets/img/schema_res_sae_p.png" class="lead" data-aos="fade-up">
-                <img src="/assets/img/schema_res_sae_p.png">
+                <a href="/assets/img/schema_reseau_sae21.png" class="lead" data-aos="fade-up">
+                <img src="/assets/img/schema_reseau_sae21.png">
                 </a>
             </div> <!-- end  s-services--leftcol -->
 
@@ -173,54 +167,53 @@
                 <ul class="services-list" data-aos="fade-up">
                     <li class="services-list__item is-active">
                         <div class="services-list__item-header">
-                            <h5>Nmap</h5>
+                            <h5>OpenStack</h5>
                         </div>
                         <div class="services-list__item-body">
                             <p>
-                                Nmap est un scanner de ports libre créé par Fyodor et distribué par Insecure.org. 
-                                Il est conçu pour détecter les ports ouverts, identifier les services hébergés et
-                                obtenir des informations sur le système d'exploitation d'un ordinateur distant.
+                                OpenStack est une plateforme de cloud computing <strong>open source</strong> qui fournit une infrastructure de cloud <strong>privé, public ou hybride</strong> à grande échelle pour les entreprises et les organisations. Elle permet aux utilisateurs de <strong>gérer des ressources de calcul, de stockage et de réseau</strong> via une interface web intuitive. OpenStack est conçu pour être <strong>flexible, évolutif et capable de s'intégrer facilement avec d'autres technologies</strong>. Il est utilisé par de nombreuses grandes entreprises pour fournir des services de cloud computing à leurs clients, ainsi que pour des projets de recherche et de développement. OpenStack est également pris en charge par une <strong>communauté active de développeurs et de contributeurs</strong>, ce qui assure une innovation continue et une amélioration constante de la plateforme.
                             </p>
                         </div>
                     </li> <!-- services-list__item -->
                     <li class="services-list__item">
                         <div class="services-list__item-header">
-                            <h5>Kali Linux</h5>
+                            <h5>Topologie réseau dans OpenStack</h5>
                         </div>
                         <div class="services-list__item-body">
-                            <p>
-                                Kali Linux est une distribution Linux open source basée sur Debian, orientée vers diverses tâches de sécurité de l'information, 
-                                telles que les tests d'intrusion, la recherche en sécurité, l'informatique judiciaire et l'ingénierie inverse.
-                            </p>
+                            <a href="/assets/img/Ressae21.png">
+                            <img src="/assets/img/Ressae21.png">
+                            </a>
                         </div>
                     </li> <!-- services-list__item -->
                     <li class="services-list__item">
                         <div class="services-list__item-header">
-                            <h5>Metasploit</h5>
+                            <h5>Interface pour créer des instances dans OpenStack </h5>
                         </div>
                         <div class="services-list__item-body">
-                            <p>
-                                Metasploit, Metasploit Pen Testing Tool, est un projet en relation avec la sécurité des systèmes informatiques. 
-                                Son but est de fournir des informations sur les vulnérabilités de systèmes informatiques,
-                                d'aider à la pénétration et au développement de signatures pour les systèmes de détection d'intrusion.
-                            </p>
+                            <a href="/assets/img/Instancessae21.png">
+                            <img src="/assets/img/Instancessae21.png">
+                            </a>
                         </div>
                     </li> <!-- services-list__item -->
                     <li class="services-list__item">
                         <div class="services-list__item-header">
-                            <h5>Hydra</h5>
+                            <h5>Services configuré dans nos serveurs</h5>
                         </div>
                         <div class="services-list__item-body">
                             <p>
-                                Hydra est un pirate de connexion parallélisé qui prend en charge de nombreux protocoles d'attaque. Il est très rapide et flexible, et de nouveaux modules sont faciles à ajouter.
-                                Cet outil permet aux chercheurs et aux consultants en sécurité de montrer à quel point il serait facile d'obtenir à distance un accès non autorisé à un système.
-                                Il prend en charge : Cisco AAA, Cisco auth, Cisco enable, CVS, FTP, HTTP(S)-FORM-GET, HTTP(S)-FORM-POST, HTTP(S)-GET, HTTP(S)-HEAD, HTTP- Proxy, ICQ, IMAP, IRC, LDAP, MS-SQL, MySQL, NNTP, Oracle Listener, Oracle SID, PC-Anywhere, PC-NFS, POP3, PostgreSQL, RDP, Rexec, Rlogin, Rsh, SIP, SMB(NT) , SMTP, SMTP Enum, SNMP v1+v2+v3, SOCKS5, SSH (v1 et v2), SSHKEY, Subversion, Teamspeak (TS2), Telnet, VMware-Auth, VNC et XMPP.
+                                <ul>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Domain_Name_System">DNS</a></li>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Apache_HTTP_Server">Apache HTTP Server</a></li>
+                                    <li><a href="https://fr.wikipedia.org/wiki/MySQL">MySQL</a></li>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Nextcloud">Nextcloud</a></li>
+                                    <li><a href="https://prometheus.io/docs/visualization/grafana/">Prometheus</a></li>
+                                    <li><a href="https://www.stackhero.io/fr-fr/services/Prometheus/documentations/Utilisation-de-Node-Exporter">Node Exporter</a></li>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Grafana">Grafana</a></li>
+                                </ul>
                             </p>
                         </div>
                     </li> <!-- services-list__item -->
                 </ul> <!-- end services-list -->
-                <p class="lead"><a id="boutondl" href="/assets/img/Sujet_SAECyber3.04.pdf" download="" class="btn btn-lg btn-secondary"><i class="fas fa-file-download"></i> Téléchargez le text de la SAE</a></p>
-
             </div>
 
         </div> <!-- s-services__content -->
@@ -230,34 +223,23 @@
 
     <!-- portfolio
     ================================================== -->
-    <section id="res" class="s-portfolio target-section">
+    <section id="portfolio" class="s-portfolio target-section">
 
         <div class="row s-portfolio__header">
             <div class="column large-6 medium-8 tab-full">
                 <div class="section-intro" data-num="03" data-aos="fade-up">
                     <h3 class="subhead">Résultat</h3>
                     <h1 class="display-1">
-                        Voici les choses que j'ai appris ou dans les quelles j'ai progressé.
+                        Lorsque tous les réseaux et services sont correctement configurés, voici le résultat obtenu.
                     </h1>
                 </div>
             </div>
         </div> <!-- s-porfolio__header -->
         <div class="row s-porfolio__list block-large-1-2 block-tab-full collapse">
-            <p data-aos="fade-up">
-                <ul>
-                    <li>Utilisations des différents outils de pentesting:</li>
-                    <ul>
-                        <li><a href="https://www.kali.org/tools/hydra/">Hydra</a></li>
-                        <li><a href="https://www.kali.org/tools/nmap/">Nmap</a></li>
-                        <li><a href="https://www.kali.org/tools/metasploit-framework/">Metasploit</a></li>
-                        <li><a href="https://www.kali.org/tools/sqlmap/">SQLmap</a></li>
-                        <li>ect...</li>
-                    </ul>
-                </ul>
-                
-                </p>
 
-        </div> <!-- folio-list -->
+            <div class="profile-pic" data-aos="fade-up">
+                <img src="/assets/img/Grafanasae21.png">
+            </div> <!-- end column -->
 
     </section> <!-- end portfolio -->
     <footer class="s-footer h-dark-bg">
